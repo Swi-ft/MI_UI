@@ -12,17 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!--Most of the above defined links and metas aren't necessay, but the next one is imprtant-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Final.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(#616161,black);       
+            background: linear-gradient(#616161,black);
+            min-height: 100vh;
         }
         .supplier-container {
-            width: 90%;
-            margin: 20px auto;
+            width: 83%;
+            margin: 30px auto;
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -131,30 +132,29 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Inventory</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Supply Inflow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Supply Outflow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Transactions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Analysis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
-                    <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Log Out</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Inventory</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Supply Inflow</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Supply Outflow</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Transactions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Home</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Log Out</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="about-section text-center" id="about">
         <div class="supplier-container">
           <div class="header">
                 <h2><b><u>My Suppliers</u></b></h2>
           </div>
           <br>
           <div class="section">
-            <form action="#" method="get">
-                <label for="search">Search:</label>
-                <input type="text" id="search" name="query" style="width: 350px;" placeholder="Search Supplier with Name, Firm or Address">
-                <button type="submit">Search</button>
-            </form>
+                <form action="#" method="get">
+                    <label for="search">Search:</label>
+                    <input type="text" id="search" name="query" style="width: 350px;" placeholder="Search Supplier with Name, Firm or Address">
+                    <button type="submit">Search</button>
+                </form>
           </div>
       
           <table class="table">

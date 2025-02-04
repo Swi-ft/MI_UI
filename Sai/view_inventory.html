@@ -12,19 +12,20 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!--Most of the above defined links and metas aren't necessay, but the next one is imprtant-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Final.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(#616161,black);       
+            background: linear-gradient(#616161,black);
+            min-height: 100vh;
         }
         .supplier-container {
-            width: 90%;
-            margin: 20px auto;
+            width: 83%;
+            margin: 30px auto;
             background: #fff;
-            border: 1px solid #ddd;
+            border: 1px solid #ddd; 
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -125,25 +126,20 @@
                 <img src="mainlogo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top" style="position: relative; left: 20px;">
                 <br>Master Invoice
             </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Inventory</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Supply Inflow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Supply Outflow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Transactions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Analysis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
-                    <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Log Out</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Inventory</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Supply Inflow</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Supply Outflow</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Transactions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Home</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Log Out</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="about-section text-center" id="about">
         <div class="supplier-container">
           <div class="header">
                 <h2><b><u>My Inventory</u></b></h2>
@@ -283,8 +279,7 @@
                 <!-- Add more rows as needed -->
             </tbody>
         </table>
-      </div>
-      <div class="footer-button" href="#">
+        <div class="footer-button" href="#">
         <a class="nav-link" href="#"><i class='far fa-arrow-alt-circle-up' style="font-size: 35px; color: aliceblue; padding-right: 20px;"></i></a>
       </div>
     <script src = "if_needed.js">

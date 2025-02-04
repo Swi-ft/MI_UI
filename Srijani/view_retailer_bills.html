@@ -12,17 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!--Most of the above defined links and metas aren't necessary, but the next one is important-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Final.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(#616161,black);       
+            background: linear-gradient(#616161,black);
+            min-height: 100vh;    
         }
         .supplier-container {
-            width: 90%;
-            margin: 20px auto;
+            width: 83%;
+            margin: 30px auto;
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -131,22 +132,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Inventory</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Supply Inflow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Supply Outflow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Transactions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Analysis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
-                    <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Log Out</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Inventory</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Supply Inflow</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Supply Outflow</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Transactions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Home</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="text-decoration: none;">Log Out</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="about-section text-center" style="height:1000px;">
         <div class="supplier-container">
             <div class="header">
-                  <h2><b><u>Supplier Invoice Bills</u></b></h2>
+                  <h2><b><u>Retailer Invoice Bills</u></b></h2>
             </div>
             <br>
 
@@ -160,8 +160,8 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Supplier Name</th>  
-                        <th><a>Supplier's Bill Number</th>
+                        <th>Retailer Name</th>  
+                        <th><a>Retailer's Bill Number</th>
                         <th>Date</th>
                         <th>Total Amount</th>
                         <th>Number of items</th>
@@ -171,7 +171,7 @@
                 <tbody>
                     <tr>
                         <td>XYZ Enterprises</td>
-                        <td><a href="">#135724680</a></td>
+                        <td>#135724680</td>
                         <td>27/01/2025</td>
                         <td>₹1,50,000.00</td>
                         <td>150</td>
@@ -179,7 +179,7 @@
                     </tr>
                     <tr>
                         <td>Infinite Motors</td>
-                        <td><a href="">#135724681</a></td>
+                        <td>#135724681</td>
                         <td>27/01/2025</td>
                         <td>₹3,00,00,000</td>
                         <td>300</td>
@@ -187,7 +187,7 @@
                     </tr>
                     <tr>
                         <td>Turbo Supplies</td>
-                        <td><a href="">#135724682</a></td>
+                        <td>#135724682</td>
                         <td>28/01/2025</td>
                         <td>₹10,000</td>
                         <td>500</td>
@@ -195,7 +195,7 @@
                     </tr>
                     <tr>
                         <td>Global Hardware Co.</td>
-                        <td><a href="">#135724683</a></td>
+                        <td>#135724683</td>
                         <td>28/01/2025</td>
                         <td>₹500.00</td>
                         <td>20</td>
@@ -203,7 +203,7 @@
                     </tr>
                     <tr>
                         <td>Summit Traders</td>
-                        <td><a href="">#135724684</a></td>
+                        <td>#135724684</td>
                         <td>28/01/2025</td>
                         <td>₹8000.00</td>
                         <td>40</td>
@@ -211,7 +211,7 @@
                     </tr>
                     <tr>
                         <td>Everest Beverages</td>
-                        <td><a href="">#135724685</a></td>
+                        <td>#135724685</td>
                         <td>28/01/2025</td>
                         <td>₹5,200.00</td>
                         <td>65</td>
@@ -219,7 +219,7 @@
                     </tr>
                     <tr>
                         <td>Swift Logistics</td>
-                        <td><a href="">#135724686</a></td>
+                        <td>#135724686</td>
                         <td>29/01/2025</td>
                         <td>₹1,350.00</td>
                         <td>15</td>
@@ -227,7 +227,7 @@
                     </tr>
                     <tr>
                         <td>Golden Roasters</td>
-                        <td><a href="">#135724687</a></td>
+                        <td>#135724687</td>
                         <td>29/01/2025</td>
                         <td>₹400.00</td>
                         <td>20</td>
@@ -235,7 +235,7 @@
                     </tr>
                     <tr>
                         <td>Choco Delight</td>
-                        <td><a href="">#135724688</a></td>
+                        <td>#135724688</td>
                         <td>29/01/2025</td>
                         <td>₹2,475.00</td>
                         <td>45</td>
@@ -243,7 +243,7 @@
                     </tr>
                     <tr>
                         <td>Bright Publications</td>
-                        <td><a href="">#135724689</a></td>
+                        <td>#135724689</td>
                         <td>29/01/2025</td>
                         <td>₹1300.00</td>
                         <td>50</td>
@@ -251,7 +251,7 @@
                     </tr>
                     <tr>
                         <td>Velvet Textiles</td>
-                        <td><a href="">#135724690</a></td>
+                        <td>#135724690</td>
                         <td>30/01/2025</td>
                         <td>₹2,730.00</td>
                         <td>42</td>
@@ -259,7 +259,7 @@
                     </tr>
                     <tr>
                         <td>Quantum Electronics</td>
-                        <td><a href="">#135724691</a></td>
+                        <td>#135724691</td>
                         <td>30/01/2025</td>
                         <td>₹1,200.00</td>
                         <td>150</td>
@@ -267,7 +267,7 @@
                     </tr>
                     <tr>
                         <td>Sweet Treats</td>
-                        <td><a href="">#135724692</a></td>
+                        <td>#135724692</td>
                         <td>31/01/2025</td>
                         <td>₹12,375.00</td>
                         <td>275</td>
@@ -275,7 +275,7 @@
                     </tr>
                     <tr>
                         <td>Rainbow Paints</td>
-                        <td><a href="">#135724693</a></td> 
+                        <td>#135724693</td> 
                         <td>31/01/2025</td>
                         <td>₹12,000.00</td>
                         <td>100</td>
@@ -288,7 +288,6 @@
         <div class="footer-button" href="#">
           <a class="nav-link" href="#"><i class='far fa-arrow-alt-circle-up' style="font-size: 35px; color: aliceblue; padding-right: 20px;"></i></a>
         </div>
-    </div>
     <script src = "if_needed.js">
         /* If JS is needed, it can be implemented here, but as we are only making "dummy" UI pages, we can skip this part. Do note to remove this part of the code (incl. the <script> part) */
     </script>
